@@ -1,0 +1,73 @@
+:root{
+    --text-color:#ffffff;
+    --icon-color: linear-gradient(#DC143C,#D2691E);
+    --background-color: linear-gradient(#28282B,#191970);
+    --background-color1:#c5c5c5;
+
+}
+
+body{
+    background:#000;
+    color: var(--text-color);
+}
+
+.main{
+    margin: 10rem;
+}
+
+.back{
+    background: grey;
+    opacity: 0.5;
+    margin-left: -5rem ;
+    border-radius: 5rem;
+    width: 2%;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 10%;
+}
+
+.back:hover{
+    opacity: 1;
+}
+
+.heading h3{
+ font-size: 3.5rem;
+ margin-bottom: 0.5rem;
+}
+
+.heading p{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.quality{
+    background: #202020;
+    opacity: 0.8;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-radius: 1rem;
+    padding: 0.5rem 3rem;
+}
+
+h4{
+    text-transform: uppercase;
+}
+.right{
+    display: block;
+}
+
+span{
+    line-height: 2;
+}
+
+select{
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    background: grey;
+    opacity: 0.5;
+    color: var(--text-color);
+}
